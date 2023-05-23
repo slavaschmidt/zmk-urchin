@@ -61,11 +61,11 @@
 	combos {
 		compatible = "zmk,combos";
 		
-		combo_accent {
-			timeout-ms = <200>;
-			key-positions = <30 31>; // both left thumb keys
-			bindings = <&mo ACCENT>;
-		};
+		// combo_accent {
+		// 	timeout-ms = <200>;
+		// 	key-positions = <30 31>; // both left thumb keys
+		// 	bindings = <&mo ACCENT>;
+		// };
 		
 		combo_sym2 {
 			timeout-ms = <200>;
@@ -104,7 +104,7 @@
 
 		// Numbers and high frequency symbols
 		sym_layer {
-			label = "Sym.";
+			label = "Sym.1";
 			bindings = <
 			&kp N1 				&kp N2 		&kp N3 		&kp N4 			&kp N5		                &kp N6 		&kp N7 				&kp N8 				&kp N9 		&kp N0
 			&kp LESS_THAN 		&kp PERCENT &kp LPAR 	&kp LEFT_BRACE 	&kp LEFT_BRACKET	  		&kp EQUAL 	&kp QUESTION 		&kp SINGLE_QUOTE 	&kp MINUS 	&kp ASTERISK
@@ -118,7 +118,7 @@
 			label = "Mods";
 			bindings = <
 			&kp ESC  		&kp LCMD(TAB) 	&kp LA(SPACE) 	&none  			&none    				&kp PG_UP  		&kp HOME 	&kp UP 		&kp END 	&kp CAPS
-			&kp LCTRL 		&sk LALT  		&sk LSHIFT  	&sk LCMD  		&sk RALT 				&kp PG_DN 		&kp LEFT  	&kp DOWN  	&kp RIGHT   &kp DEL
+			&sk LCTRL 		&sk LALT  		&sk LSHIFT  	&sk LCMD  		&sk RALT 				&kp PG_DN 		&kp LEFT  	&kp DOWN  	&kp RIGHT   &kp DEL
 			&kp LC(Z)  		&kp LC(X) 		&kp LC(C) 		&kp TAB   		&kp LC(V)          		&kp LC(BSPC) 	&kp BSPC 	&trans 		&trans  	&trans
 															&trans 			&trans    				&trans  		&mo FNC
 			>;
@@ -146,16 +146,16 @@
 			>;
 		};
 
-		// Used to type regional accents.
-		accent_layer {
-			label = "Accent";
-			bindings = <
-			&none &none &none &none &none       &none &none &none &none &none 
-			&none &none &none &none &none 		&none &none &none &none &none
-			&none &none &none &none &none       &none &none &none &none &none
-							  &none &none       &none &none 
-			>;
-		};
+		// // Used to type regional accents.
+		// accent_layer {
+		// 	label = "Accent";
+		// 	bindings = <
+		// 	&none &none &none &none &none       &none &none &none &none &none 
+		// 	&none &none &none &none &none 		&none &none &none &none &none
+		// 	&none &none &none &none &none       &none &none &none &none &none
+		// 					  &none &none       &none &none 
+		// 	>;
+		// };
 
 		// // Used to change the keyboard's settings.
 		// settings_layer {
