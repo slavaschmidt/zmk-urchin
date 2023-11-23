@@ -73,11 +73,11 @@
 			bindings = <&mo SYM2>;
 		};
 
-		// combo_settings {
-		// 	timeout-ms = <200>;
-		// 	key-positions = <30 31>; // both left thumb keys
-		// 	bindings = <&mo SETTINGS>;
-		// };
+		 combo_settings {
+		 	timeout-ms = <200>;
+		 	key-positions = <30 31>; // both left thumb keys
+		 	bindings = <&mo SETTINGS>;
+		 };
 
 		// left index & middle fingers (home-row)
 		// hold control & space for Adobe workflow
@@ -157,15 +157,15 @@
 		// 	>;
 		// };
 
-		// // Used to change the keyboard's settings.
-		// settings_layer {
-		// 		label = "Sett.";
-		// 		bindings = <
-		// 		&none &none &none &none &none               &bt BT_SEL 3 &none &unstick &none &bootloader 
-		// 		&none &none &none &none &none 				&bt BT_SEL 4 &none &none &none &none
-		// 		&none &none &none &none &none              	&bt BT_SEL 5 &none &kp C_PREV &kp C_PP &kp C_NEXT
-		// 							&none &none                         &kp K_VOL_DN &kp K_VOL_UP 
-		// 		>;
-		// };
+		// Used to change the keyboard's settings.
+		settings_layer {
+				label = "Sett.";
+				bindings = <
+				&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
+				&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
+				&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
+										&none &none                         &none &none 
+				>;
+		};
 	};
 };
