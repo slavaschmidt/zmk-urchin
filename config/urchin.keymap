@@ -117,7 +117,7 @@
 		ext_layer {
 			label = "Ext";
 			bindings = <
-			&kp ESC  		&kp LG(LA(C)) 	&kp LA(SPACE) 	&LC(R) 		&LC(T) 					&kp LG(BSPC)	&kp LC(A) 	&kp PG_DN 	&kp PG_UP 	&kp LC(E)
+			&kp ESC  		&kp LG(LA(C)) 	&kp LA(SPACE) 	&kp LC(R) 	&kp LC(T) 					&kp LG(BSPC)	&kp LC(A) 	&kp PG_DN 	&kp PG_UP 	&kp LC(E)
 			&kp TAB 		&sk LALT  		&sk LSHIFT  	&sk LCMD  	&sk RCTRL  				&kp LC(W)	 	&kp LEFT  	&kp DOWN 	&kp UP   	&kp RIGHT
 			&kp LG(Z)  		&kp LG(X) 		&kp LG(C) 		&kp LG(V)  	&kp DEL 	         	&kp BSPC	 	&none		&kp HOME    &kp END		&none 
 															&trans 		&trans    				&kp ENTER  		&mo FNC
