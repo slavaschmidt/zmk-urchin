@@ -141,7 +141,7 @@
 			bindings = <
 			&kp CARET 	&none		&kp RA(N3) 		&kp LS(RA(N2))  &kp HASH         		&kp K_VOL_DN 	&kp K_VOL_UP	&kp C_PREV 	&kp C_PP  	&kp C_NEXT 
 			&none		&none  		&none		 	&none	 		&none          			&none 			&none 			&none 		&none 		&none
-			&none 		&PERCENT 	&none 			&none 			&none				  	&none 			&none 			&none 		&none 		&none
+			&none 		&cp PERCENT &none 			&none 			&none				  	&none 			&none 			&none 		&none 		&none
 													&none 			&none        			&none 			&none 
 			>;
 		};
