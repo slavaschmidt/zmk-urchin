@@ -118,7 +118,7 @@
 			label = "Ext";
 			bindings = <
 			&kp ESC  		&kp LG(W)		&kp LG(E)		&kp LG(R) 	&kp LG(T) 				&kp LG(BSPC)	&kp LC(A) 	&kp PG_DN 	&kp PG_UP 	&kp LC(E)
-			&kp LG(A) 		&sk LALT  		&sk LSHIFT  	&sk LCMD  	&sk RCTRL  				&kp LC(W)	 	&kp LEFT  	&kp DOWN 	&kp UP   	&kp RIGHT
+			&kp LG(A) 		&kp TAB  		&sk LALT  		&sk LCMD  	&sk RCTRL  				&kp LC(W)	 	&kp LEFT  	&kp DOWN 	&kp UP   	&kp RIGHT
 			&kp LG(Z)  		&kp LG(X) 		&kp LG(C) 		&kp LG(V)  	&kp DEL 	         	&kp BSPC	 	&none		&kp HOME    &kp END		&kp TAB 
 															&trans 		&trans    				&kp ENTER  		&mo FNC
 			>;
@@ -129,7 +129,7 @@
 			label = "Fnc";
 			bindings = <
 			&kp F1 		&kp F2 		&kp F3 		&kp F4 		&kp F5                  				&kp F6 			&kp F7 				&kp F8 				&kp F9 				&kp F10 
-			&sk LALT 	&sk LGUI 	&sk LSHIFT 	&sk LCTRL 	&kp RALT     							&kp F11 		&kp F12  			&kp LG(LA(C)) 		&kp LA(SPACE) 		&trans
+			&sk LALT 	&sk LGUI 	&sk LSHIFT 	&sk LCTRL 	&kp RALT     							&kp F11 		&kp F12  			&kp LA(SPACE) 		&kp LG(LA(C)) 		&trans
 			&bt BT_CLR	&none 		&none 		&none 		&bt BT_SEL 0				    		&bt BT_SEL 1 	&kp LC(LA(LEFT))	&kp LC(LA(ENTER)) 	&kp LC(LA(RIGHT)) 	&kp CAPS
 							  					&none 		&none              						&none 	&none  
 			>;
