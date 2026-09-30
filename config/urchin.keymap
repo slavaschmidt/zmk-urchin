@@ -119,7 +119,7 @@
 			bindings = <
 			&kp ESC  		&kp LG(W)		&kp LG(E)		&kp LG(R) 	&kp LG(T) 				&kp LG(BSPC)	&kp LC(A) 	&kp PG_DN 	&kp PG_UP 	&kp LC(E)
 			&kp LG(A) 		&kp TAB  		&sk LALT  		&sk LCMD  	&sk RCTRL  				&kp LC(W)	 	&kp LEFT  	&kp DOWN 	&kp UP   	&kp RIGHT
-			&kp LG(Z)  		&kp LG(X) 		&kp LG(C) 		&kp LG(V)  	&kp DEL 	         	&kp BSPC	 	&none		&kp HOME    &kp END		&kp TAB 
+			&kp LG(Z)  		&kp LG(X) 		&kp LG(C) 		&kp LG(V)  	&kp LS(LG(LA(V))) 	    &kp BSPC	 	&kp DEL		&kp HOME    &kp END		&kp TAB
 															&trans 		&trans    				&kp ENTER  		&mo FNC
 			>;
 		};
